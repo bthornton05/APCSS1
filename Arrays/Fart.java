@@ -1,5 +1,5 @@
 package Arrays;
-public class Fart {
+public class Fart { //Fart
 private static double[] flowerPrice = {0.75, 1.50, 1.00, 1.25};
 private static int[] flowerLength ={10,15,20,25};
 private static String[] flowerColor = {"Blue", "Red", "Yellow", "White", "Purple"};
