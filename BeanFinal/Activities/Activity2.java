@@ -1,14 +1,14 @@
 package BeanFinal.Activities;
-class Activity2{
-    /* Farmer Alfonso Jones the third wants to store 69 billion soy beans in a grain silo. Write a boolean expression to check if 
-    * Alfonso's silo will store the beans and return true or false depending on the answer. Assuming each bean is perfectly 
-    * spherical and of equal diameter, the volume effeciency of spheres is about 64 percent. The formula for the volume of 
-    * a sphere is 4Pir^3 and the volume of a cylinder is Pir^2*h  */ 
-    private static double beans = 69000000000.0;
-    private static double beanDiameter = .008;
-    private static double siloHeight = 50; 
-    private static double siloDiameter = 27;
-    public static void main(String[] args) {
-    //Write code here, make sure to return true or false
+/*Farmer Owen Levinson Gould wants to buy fertilizer for his soybean field. Assuming a field acreage of 15 acres and a average bushel rate of 60 per acre,
+ * how much fertlizer should Owen use? Remember, that, per bushel, soybeans remove 1.15 pounds of K₂O, so 60 bushels will remove 69 pounds of K₂O per acre.
+ * However, muriate of potash, the fertilizer used on Owen's field, contains only about 60 percent K₂O by mass, meaning 115 pounds of muriate of potash(0-0-60)
+ * must be used per acre. However, Owen Levinson Gould is not a precise farmer, and fertilized his field at random. Finish the boolean expression to check if 
+ * Owen adequately fertilized his fields.
+*/
+public class Activity2 {
+    private static int fertlizer = (int)(Math.random()*1325 + 500);
+    public static void main(String[] args){
+        System.out.println("The amount of fertilizer added is: " + /*Write code here*/ + " pounds.");
+        System.out.println(/*Write code here to check if he has enough fertlizer, remember your operators and make sure to calculate the fertlizer needed*/);
     }
 }

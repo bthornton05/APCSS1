@@ -1,18 +1,12 @@
 package BeanFinal.Activities;
+/*Farmer Pontiniqua Jetski the 9th wants to plant a field with an ideal soil ph for soy beans. Soy beans grow in an idealistic ph range of 6.3 to 6.5.
+ * Pontiniqua measures his soil ph and finds it is 5.4. Assuming an acreage of 10 acres, 12 tons of agricultural limestone is needed to bring 10 acres of
+ * soil up 1 ph. Finish completing the variables and print statments to see if Pontiniqua has proper soil Ph or if he needs agricultural limestone.*/
 public class Activity1 {
-    /*Farmer Jebadiah Jonah Jahovius the seventh has 25 acres of land in which he wants to plant soybeans upon. Assuming
-     * a row width of 15 inches, an average crop emergence of 80 percent per foot of seedlings, and an average planting of 5 
-     * seeds per foot, write a boolean expression to check if 4,000,000 seeds is enough to plant Jebadiah's field. Additionally, 
-     * Jebadiah wants to know if his fields can yield 3,000 bushels of Soybeans. Write a boolean expression to check if his
-     * fields will return this yield. Keep in mind, a bushel is 60 pounds of soybeans, and on average, a soybean plant produces 
-     * around 75 pods per plant with an average of 3 seeds per pod with each seed weighing .00529 ounces. Write any variables
-     * as needed.
-     */
-    private static double fieldAcreage = 25;
-    private static double rowSpacing = 15;
-    private static double beanWeight = .00529;
-    //Write code here
-    public static void main(String[] args) {
-    //Write code here, make sure to return true or false
+    private static boolean ph = /*Write code here */;
+    private static boolean limestone = /*Write code here */;
+    public static void main(String[] args){
+        System.out.println("Does Pontiniqua have proper ph? \n" + /*Write code here */);
+        System.out.println("Does Pontiniqua need limestone? \n" + /*Write code here */);
     }
 }
