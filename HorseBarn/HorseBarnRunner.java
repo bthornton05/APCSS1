@@ -4,7 +4,7 @@
 import java.util.ArrayList;
 public class HorseBarnRunner
 {
-  public static void main(String[] args)
+  public static void main(String[] args) //Thanks to Aric and Abheek for explaining many a thing
   {
     HorseBarn barn = new HorseBarn();
     //ArrayList<Horse> barnSpaces = new ArrayList<Horse>();
