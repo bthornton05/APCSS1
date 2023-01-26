@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "DataLab/DataLabCode/lib",
+        "ArrayProject"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "DataLab/DataLabCode/lib/sinbad.jar"
+    ]
+}
